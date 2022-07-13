@@ -1,0 +1,8 @@
+# taking input from the user 
+length = float(input("Enter length  of the rectangle: "))
+breadth = float(input("Enter breadth of rectangle "))
+
+if length == breadth :        # if the value of length and breadth are equal , then it is a square otherwise it is not.
+    print("It is a Square. ")
+else : 
+    print("It is not a Square. ")
